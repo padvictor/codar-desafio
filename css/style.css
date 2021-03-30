@@ -1,0 +1,294 @@
+/* Geral */
+header ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: unset;
+}
+
+h1 {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+button {
+  background: #D6000D;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  padding: 5px 60px;
+  border: 2px solid #D6000D;
+}
+
+img {
+  width: 80%;
+  background-size: cover;
+  overflow: hidden;
+}
+
+h2 {
+  font-size: 46px;
+  color: #D6000D;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+span {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+input {
+  padding-right: 25px;
+  margin-right: 15px;
+  background-color: #dcdcdc;
+  border-radius: 10px;
+  padding: 8px 15px;
+  color: #594f4f;
+  border: none;
+}
+
+footer {
+  color: #fff;
+  background: #000;
+  padding-bottom: 20px;
+}
+
+a {
+  color: #000;
+}
+
+button a {
+  color: #fff;
+}
+
+/* Header */
+.header {
+  display: flex;
+  margin-top: 10px;
+}
+
+.header h1 {
+  color: #D6000D;
+}
+
+.header h1 p {
+  color: #000;
+
+}
+
+/* Principal */
+.main {
+  padding-bottom: 100px;
+}
+
+.logo {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.centraliza-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Serviços */
+.servicos {
+  padding-bottom: 50px;
+}
+
+.check {
+  color: #D6000D;
+  margin-right: 15px;
+}
+
+.lista {
+  display: block;
+  line-height: 56px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.lista span {
+  font-weight: normal;
+}
+
+.centraliza {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.code {
+  display: flex;
+  justify-content: center;
+}
+
+/* Contato */
+.equipe {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.call {
+  margin-bottom: 80px;
+}
+
+/*Card */
+
+.card {
+  display: flex;
+  width: 100%;
+  background: #dcdcdc;
+  border-radius: 6px;
+  padding: 25px;
+}
+
+.bola {
+  min-width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #D6000D;
+  margin-top: 10px;
+}
+
+.texto-card {
+  margin-left: 20px;
+}
+
+.texto-card h3 {
+  font-size: 24px;
+}
+
+.texto-card span {
+  font-size: 17px;
+}
+
+.texto-card p {
+  font-size: 22px;
+  font-style: normal;
+}
+
+.texto-card-p {
+  max-width: 350px
+}
+
+/* Footer */
+
+.baixo {
+  padding: 35px 25px 35px 25px;
+}
+
+.baixo h1 {
+  font-size: 34px;
+}
+
+.baixo h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.baixo span {
+  font-size: 14px;
+  display: block;
+  font-weight: normal;
+}
+
+.icones-rede {
+  font-size: 30px;
+  margin-left: 11px;
+  color: #D6000D;
+  margin-top: 5px;
+}
+
+/* media */
+
+@media (max-width: 768px) {
+  .header h1 {
+    justify-content: center;
+    ;
+  }
+
+  .header li {
+    margin: 10px;
+    justify-content: center;
+  }
+
+  .header button {
+    display: none;
+  }
+
+  .logo {
+    margin: 0px 0px 50px 0px;
+  }
+
+  .centraliza-info {
+    text-align: center;
+  }
+
+  .centraliza-info button {
+    padding: 15px 75px 15px 75px;
+  }
+
+  .centraliza {
+    order: 2;
+    margin-bottom: 15px;
+  }
+
+  .code {
+    order: 1;
+    margin-bottom: 15px;
+  }
+
+  .contato {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .contato input {
+    margin-bottom: 15px;
+    padding-right: 50px;
+    padding-left: 30px;
+    text-align: center;
+  }
+
+  .card {
+    border-radius: 15px;
+  }
+
+  .card p {
+    font-size: 16px;
+  }
+
+  .baixo {}
+
+  .baixo h1 {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .baixo h3 {
+    font-size: 28px;
+  }
+
+  .baixo span {
+    font-size: 18px;
+  }
+
+  .baixospan {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .icones-rede {
+    font-size: 50px;
+    margin-right: 15px;
+  }
+}
